@@ -1,20 +1,12 @@
-# ➕ Function and Operator Overloading in C++
+Function and Operator Overloading in C++
 
----
-
-## 🎯 Aim  
+Aim  
 To study and implement **Function Overloading** and **Operator Overloading** in C++.
 
----
-
-## 📚 Theory  
-
+Theory  
 In C++, **overloading** is a fundamental feature of **polymorphism** that allows the same function or operator to perform different tasks depending on the context. This makes programs more **intuitive, flexible, and closer to natural language**.
 
----
-
-### 🔹 Function Overloading  
-
+Function Overloading  
 Function overloading allows multiple functions with the **same name** but **different parameter lists**. The compiler decides which version to call at **compile time** based on the number and types of arguments.  
 
 **Key Characteristics:**
@@ -28,10 +20,7 @@ Function overloading allows multiple functions with the **same name** but **diff
 - Makes programs easier to understand and maintain.  
 - Provides flexibility in handling different data types and argument counts.  
 
----
-
-### 🔹 Operator Overloading  
-
+Operator Overloading  
 Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`, etc.) for **user‑defined types** (classes). This enables objects to behave like built‑in types, allowing natural expressions such as `c1 + c2` for complex numbers.  
 
 **Key Characteristics:**
@@ -45,12 +34,8 @@ Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`,
 - Allows natural mathematical and logical operations on objects.  
 - Improves code clarity and reduces verbosity.  
 
----
-
-## 📋 Algorithms  
-
-### 🧾 Function Overloading (Addition Class)
-
+Algorithms  
+Function Overloading (Addition Class)
 1. **Start**  
 2. Define a class `Addition`.  
 3. Inside the class, define three overloaded methods:  
@@ -65,10 +50,7 @@ Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`,
    - Display results.  
 5. **End**
 
----
-
-### 🧾 Function Overloading (UserInfo Class)
-
+Function Overloading (UserInfo Class)
 1. **Start**  
 2. Define a class `UserInfo`.  
 3. Overload the method `show()` with different parameter lists:  
@@ -82,10 +64,7 @@ Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`,
    - Display results.  
 5. **End**
 
----
-
-### 🧾 Operator Overloading (Complex Numbers)
-
+Operator Overloading (Complex Numbers)
 1. **Start**  
 2. Define a class `Complex` with members `real`, `imag`.  
 3. Create a constructor to initialize values.  
@@ -100,10 +79,7 @@ Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`,
    - Display `c3`.  
 7. **End**
 
----
-
-### 🧾 Operator Overloading (Book Class)
-
+Operator Overloading (Book Class)
 1. **Start**  
 2. Define a class `Book` with members `title`, `pages`.  
 3. Create a constructor to initialize values.  
@@ -118,10 +94,7 @@ Operator overloading allows redefining the behavior of operators (`+`, `-`, `*`,
    - Display all three books.  
 7. **End**
 
----
-
-## 🧠 Conclusion  
-
+Conclusion  
 This experiment demonstrates the versatility of **overloading** in C++:  
 
 - **Function Overloading** → Same function name, different parameter lists, enabling flexible and intuitive use of functions.  
